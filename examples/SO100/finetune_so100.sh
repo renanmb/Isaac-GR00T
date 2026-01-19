@@ -20,4 +20,5 @@ CUDA_VISIBLE_DEVICES=0 python \
     --use_wandb \
     --global_batch_size 32 \
     --color_jitter_params brightness 0.3 contrast 0.4 saturation 0.5 hue 0.08 \
-    --dataloader_num_workers 4
+    --dataloader_num_workers 4 \
+    --no-tune-diffusion-model
