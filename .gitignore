@@ -167,7 +167,6 @@ offline_open_loop_eval_plots/
 /models
 /data
 
-# checpoints
+# checkpoints
 /tmp/
-
 finish_sandwich_lerobot/
